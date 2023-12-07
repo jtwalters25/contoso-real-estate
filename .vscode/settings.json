@@ -7,5 +7,11 @@
   "debug.internalConsoleOptions": "neverOpen",
   "azureFunctions.projectLanguageModel": 4,
   "azureFunctions.projectSubpath": "packages/api-v4",
-  "azureFunctions.preDeployTask": "npm prune (functions)"
+  "azureFunctions.preDeployTask": "npm prune (functions)",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\jewalte\\.azurelogicapps\\dependencies\\DotNetSDK;${env:PATH}"
+  },
+  "omnisharp.dotNetCliPaths": [
+    "C:\\Users\\jewalte\\.azurelogicapps\\dependencies\\DotNetSDK"
+  ]
 }
